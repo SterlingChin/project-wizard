@@ -1,6 +1,6 @@
 angular.module('app').controller('mainCtrl', function ($scope, mainSvc) {
   $scope.home = 'home controller is working';
-  $scope.noserver = mainSvc.getNoServer()
+  $scope.noServerProjects = mainSvc.getNoServer()
   $scope.personal = mainSvc.getPersonal()
   $scope.group = mainSvc.getGroup()
 
